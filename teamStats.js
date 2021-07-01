@@ -34,5 +34,14 @@ const team = {
      chaliesAngels: 15,
       theGoodLife: 30}
       ],
+  
+  
+  // has getter methods for _players and _games keys. 
+  get players(){
+  return this._players;},
+  
+  get games(){
+  return this._games;
+  },
   }
   
