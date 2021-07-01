@@ -43,5 +43,14 @@ const team = {
   get games(){
   return this._games;
   },
-  }
   
+  
+  // add a new player to team
+  addPlayer(firstName, lastName, age){
+    let player = {
+      firstName: firstName,
+      lastName: lastName,
+      age: age};
+    this.players.push(player);
+  },
+  }
