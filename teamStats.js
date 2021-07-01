@@ -71,7 +71,7 @@ addGame(rivalTeamName, homePoints, rivalPoints){
 team.addPlayer('Natalie', 'Cook', 26);
 team.addPlayer('Dylan', 'Sanders', 21);
 team.addPlayer('Alex', 'Munday', 22);
-console.log(team.players);
+// console.log(team.players);
 // Output:
 // TEAM STATS
 
@@ -87,6 +87,15 @@ console.log(team.players);
 team.addGame('Majestics', 40, 40);
 team.addGame('Saints', 15, 40);
 team.addGame('Titans', 30 , 15);
-// console.log(team.games);
-// Output
+console.log(team.games);
+// Output:
+// TEAM STATS
+
+// [ { opponent: 'Aces', home: 40, rival: 30 },
+//   { opponent: 'Conquerors', home: 30, rival: 15 },
+//   { opponent: 'Assassins', home: 15, rival: 30 },
+//   { opponent: 'Majestics', home: 40, rival: 40 },
+//   { opponent: 'Saints', home: 15, rival: 40 },
+//   { opponent: 'Titans', home: 30, rival: 15 } ]
+
 
